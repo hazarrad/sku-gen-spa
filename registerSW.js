@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/sku-gen-spa/sw.js', { scope: '/sku-gen-spa/' })})}
